@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Avaliação Final Frontend III</title>
+    <link rel="stylesheet" href="../js/scripts.js" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <img
+            src="../images/RICK_MORTY_ICON-01.svg"
+            alt="icon_Rick_Morty"
+            width="30"
+            height="24"
+          />
+        </div>
+
+        <div class="container d-flex justify-content-center">
+          <div class="tituloPersonagem animationPiscar">RICK SANCHEZ</div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="gifTexto container d-flex justify-content-center">
+        <div class="col-12 col-md-4 d-flex m-5">
+          <img
+            class="gifPersonagem m-2 animationLeftToRight"
+            src="https://i.gifer.com/WG8Q.gif"
+            alt="rickGIF"
+          />
+          <div
+            class="textoCaixa col-12 col-md-8 d-flex m-2 p-1 animationRighToLeft"
+          >
+            <p class="text-light">
+              <span class="texto">Rick Sanchez C-137</span><br /><br />
+              <span class="texto">Voz original:</span> Justin Roiland (1ª-ª6
+              Temporadas) Ian Cordoni (7ª Temporada - Presente); <br /><br />
+              <span class="texto">Voz no Brasil:</span>Caio César Oliveira
+              (1ª-2ª temporadas) e Ênio Vivona (3ª temporada - Presente);
+              <br /><br />
+              Um cientista maluco alcoólatra de 70 anos extremamente inteligente
+              que é capaz de construir máquinas e acessórios tecnológicos que o
+              permitem viajar por diversas dimensões e realidades paralelas. Ele
+              quase nunca pensa nas consequências de suas ações e possui um
+              comportamento excêntrico e um estilo de vida niilista. É pai de
+              Beth, sogro de Jerry e avô de Morty e Summer. Rick possivelmente
+              teve sua aparência inspirada no cientista Emmett Brown, da
+              trilogia De Volta Para o Futuro.[3]
+            </p>
+          </div>
+        </div>
+      </div>
+      <section class="d-flex justify-content-center p-3">
+        <button
+          class="botao p-2"
+          id="Voltar a Lista de Personagens"
+          onclick="paginaPrincipal()"
+        >
+          Voltar a Lista de Personagens
+        </button>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container d-flex justify-content-center p-5">
+        <div class="row">
+          <div id="col">
+            <small>Desenvolvido por: <span>Douglas Rosa</span> em 2024</small>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../js/scripts.js"></script>
+  </body>
+</html>
